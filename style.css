@@ -1,0 +1,60 @@
+html{
+ background: url(bas.PNG) #ccc no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#app-name{
+    color: rgb(254,198,0);
+    font-size: 60px;
+    font-family: cursive;
+    margin-top: 100px ;
+    text-align:left;
+    margin-left: 350px;
+    text-transform: uppercase;
+}
+.square{
+    height: 450px;
+    width: 500px;
+    background: rgba(217,217,217,1.7);
+    margin-left: 200px;;
+    text-align: center;
+}
+.title{
+    padding: 20px;
+}
+input[type="text"],input[type="password"]{
+	margin-top: 30px;
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+    padding-left: 40px;
+    
+}
+.btn-login{
+    margin-top: 15px;
+    font-size: 20px;
+	padding: 15px 25px;
+	border: none;
+	background-color: rgb(19,67,47);
+    color:  rgb(254,198,0);
+}
+input::-webkit-input-placeholder {
+    text-align: right;
+  padding-right: 10px;
+  }
+  input:-moz-placeholder {
+    text-align: right;
+  }
+  input::-moz-placeholder {
+    text-align: right;
+    padding-right: 10px;
+  }
+  input:-ms-input-placeholder {
+    text-align: right;
+    
+  }
